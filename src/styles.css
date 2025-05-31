@@ -7,9 +7,14 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
+<<<<<<< HEAD
   background-color: #eee;
   background-image: url("https://transparenttextures.com/patterns/black-thread-light.png");
 
+=======
+  background: #eee;
+  padding: 0 16px;
+>>>>>>> origin/v2
 }
 
 header {
@@ -62,13 +67,22 @@ footer p {
   margin-right: 10px;
   color: #f5ba13;
   border: none;
+<<<<<<< HEAD
   width: 36px;
   height: 36px;
+=======
+  width: 56px;
+  height: 26px;
+>>>>>>> origin/v2
   cursor: pointer;
   outline: none;
 }
 
+<<<<<<< HEAD
 form.create-note {
+=======
+form {
+>>>>>>> origin/v2
   position: relative;
   width: 480px;
   margin: 30px auto 20px auto;
@@ -77,8 +91,13 @@ form.create-note {
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
+<<<<<<< HEAD
 form.create-note input,
 form.create-note textarea {
+=======
+form input,
+form textarea {
+>>>>>>> origin/v2
   width: 100%;
   border: none;
   padding: 4px;
@@ -87,7 +106,11 @@ form.create-note textarea {
   font-family: inherit;
   resize: none;
 }
+<<<<<<< HEAD
 form.create-note button {
+=======
+form button {
+>>>>>>> origin/v2
   position: absolute;
   right: 18px;
   bottom: -18px;
